@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		54EA5B341B91A9A500894300 /* UDPCoredata.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 54EA5B321B91A9A500894300 /* UDPCoredata.xcdatamodeld */; };
 		54F7AF841B831B9300EBD615 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F7AF831B831B9300EBD615 /* main.m */; };
 		54F7AF871B831B9300EBD615 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F7AF861B831B9300EBD615 /* AppDelegate.m */; };
 		54F7AF8A1B831B9300EBD615 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F7AF891B831B9300EBD615 /* ViewController.m */; };
@@ -30,6 +31,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		54EA5B331B91A9A500894300 /* UDPCoredata.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = UDPCoredata.xcdatamodel; sourceTree = "<group>"; };
 		54F7AF7E1B831B9300EBD615 /* UDP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UDP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		54F7AF821B831B9300EBD615 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		54F7AF831B831B9300EBD615 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -99,6 +101,7 @@
 				54F7AFA81B831C9A00EBD615 /* AsyncUdpSocket.m */,
 				54F7AF881B831B9300EBD615 /* ViewController.h */,
 				54F7AF891B831B9300EBD615 /* ViewController.m */,
+				54EA5B321B91A9A500894300 /* UDPCoredata.xcdatamodeld */,
 				54F7AF8B1B831B9300EBD615 /* Main.storyboard */,
 				54F7AF8E1B831B9300EBD615 /* Images.xcassets */,
 				54F7AF901B831B9300EBD615 /* LaunchScreen.xib */,
@@ -238,6 +241,7 @@
 				54F7AF871B831B9300EBD615 /* AppDelegate.m in Sources */,
 				54F7AFAC1B83228E00EBD615 /* GDataXMLNode.m in Sources */,
 				54F7AF841B831B9300EBD615 /* main.m in Sources */,
+				54EA5B341B91A9A500894300 /* UDPCoredata.xcdatamodeld in Sources */,
 				54F7AFA91B831C9A00EBD615 /* AsyncUdpSocket.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -453,6 +457,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		54EA5B321B91A9A500894300 /* UDPCoredata.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				54EA5B331B91A9A500894300 /* UDPCoredata.xcdatamodel */,
+			);
+			currentVersion = 54EA5B331B91A9A500894300 /* UDPCoredata.xcdatamodel */;
+			path = UDPCoredata.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 54F7AF761B831B9300EBD615 /* Project object */;
 }

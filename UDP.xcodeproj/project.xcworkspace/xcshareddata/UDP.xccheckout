@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>1752BFE8-03CA-4165-A272-7D17F630EC57</string>
 	<key>IDESourceControlProjectName</key>
-	<string>project</string>
+	<string>UDP</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>0F6D57E82C3ECAC448E3B520CD02FCAB598D3B77</key>
 		<string>https://github.com/zhangferry/UDP.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>UDP.xcodeproj/project.xcworkspace</string>
+	<string>UDP.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>0F6D57E82C3ECAC448E3B520CD02FCAB598D3B77</key>
